@@ -21,11 +21,13 @@
       </form>
         <div class="weatherDetails">
             <div class="weatherIcon">
-                <img src="" alt="Clouds" id="weather-icon">
+                <img src="images/smoke_weather_icon.png" alt="Clouds" id="weather-icon">
                 <h2>${temperature} °C</h2>
                  <input type="hidden" id="wc" value="${weatherCondition}"> </input>
             </div>
-            
+            <div class="cityDetails" >
+                 <div class="date">${weatherCondition}</div>
+            </div>
             <div class="cityDetails">        
                 <div class="desc"><strong>${city}</strong></div>
                 <div class="date">${date}</div>
